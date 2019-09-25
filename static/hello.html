@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>
+
+    <BODY> 
+    
+        <INPUT type="text" id="name-input">
+        <BUTTON id="name-button">SUBMIT</BUTTON>
+            <P id="greeting"></P>
+            
+        <SCRIPT src="https://code.jquery.com/jquery-3.3.1.min.js"></SCRIPT>
+        <SCRIPT>
+            $("#name-button").click(function(event){
+            let message = {
+                         name: $("#name-input").val()
+                  }
+            
+             $.post("http://127.0.0.1:5000/hello", JSON.stringify(message), function(response){
+                $("#greeting").text(response.greeting);
+                console.log(response);
+             });
+
+              });
+        </SCRIPT>
+    
+    </BODY>
+</HTML>
