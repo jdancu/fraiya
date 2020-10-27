@@ -25,7 +25,7 @@ clint==0.5.1
 #conda-verify==3.4.2
 configparser==3.7.4
 contextlib2==0.5.5
-cryptography==2.7
+cryptography==3.2
 cycler==0.10.0
 decorator==4.4.0
 defusedxml==0.6.0
