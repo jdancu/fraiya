@@ -78,7 +78,7 @@ nbconvert==5.5.0
 nbformat==4.4.0
 notebook==5.7.8
 np-utils==0.5.11.1
-numpy==1.16.5
+numpy==1.22.0
 olefile==0.46
 pandocfilters==1.4.2
 pathlib2==2.3.4
