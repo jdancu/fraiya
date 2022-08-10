@@ -74,7 +74,7 @@ mkl-random==1.0.2
 mkl-service==2.3.0
 mock==3.0.5
 navigator-updater==0.2.1
-nbconvert==5.5.0
+nbconvert==6.3.0
 nbformat==4.4.0
 notebook==5.7.8
 np-utils==0.5.11.1
